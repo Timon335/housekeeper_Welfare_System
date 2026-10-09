@@ -46,14 +46,24 @@ export const WelfareProvider = ({ children }) => {
    * ==============================================================================
    */
 
-  // เข้าสู่ระบบตาม User ID
-  const login = (userId) => {
-    const user = users.find((u) => u.id === userId);
+  // [UC-01] เข้าสู่ระบบตาม User ID หรือ Staff ID
+  const login = (identifier) => {
+    if (!identifier) {
+      showToast('กรุณากรอกรหัสพนักงานหรือรหัสผู้ใช้งาน', 'error');
+      return false;
+    }
+    const cleanId = String(identifier).trim().toLowerCase();
+    const user = users.find(
+      (u) =>
+        u.id.toLowerCase() === cleanId ||
+        (u.staffId && u.staffId.toLowerCase() === cleanId)
+    );
     if (user) {
       setCurrentUser(user);
       showToast(`ยินดีต้อนรับคุณ ${user.name} เข้าสู่ระบบ`, 'info');
       return true;
     }
+    showToast('ไม่พบข้อมูลรหัสพนักงานนี้ในระบบ กรุณาตรวจสอบอีกครั้ง', 'error');
     return false;
   };
 
