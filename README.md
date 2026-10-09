@@ -87,15 +87,3 @@ npm run dev
 # 3. รัน Build เพื่อทดสอบ Production Build
 npm run build
 ```
-
----
-
-## 6. วิธีการ Deploy ขึ้น Vercel (ขั้นตอนง่ายๆ)
-โปรเจกต์นี้ตั้งค่าเป็นมาตรฐานของ Vite และไม่มี Error ใดๆ สามารถ Deploy ได้ทันที:
-1. อัปโหลดโค้ดขึ้น GitHub Repository
-2. เข้าสู่เว็บไซต์ [vercel.com](https://vercel.com) แล้วล็อกอินด้วย GitHub
-3. คลิก **"Add New Project"** แล้วเลือก Repository นี้
-4. Vercel จะตรวจพบว่าเป็น **Vite** อัตโนมัติ:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-5. กดปุ่ม **"Deploy"** ระบบจะสร้าง URL ให้ออนไลน์ทันที
