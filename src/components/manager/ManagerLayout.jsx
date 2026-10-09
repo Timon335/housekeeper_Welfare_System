@@ -45,7 +45,7 @@ export const ManagerLayout = () => {
               ระบบบริหารจัดการสวัสดิการหอพัก
             </h1>
             <span className="bg-purple-100 text-purple-700 text-xs px-2.5 py-0.5 rounded-full font-bold">
-              Manager Portal
+              สำหรับหัวหน้างาน
             </span>
           </div>
           <p className="text-xs text-[#64748B] mt-0.5">
@@ -66,7 +66,7 @@ export const ManagerLayout = () => {
             }`}
           >
             <LayoutDashboard className="w-4 h-4" />
-            <span>ภาพรวม (UC-11)</span>
+            <span>ภาพรวมและสถิติ</span>
           </button>
 
           {/* เมนู 2: ตรวจสอบและอนุมัติ */}
@@ -79,7 +79,7 @@ export const ManagerLayout = () => {
             }`}
           >
             <CheckSquare className="w-4 h-4" />
-            <span>อนุมัติคำขอ (UC-07, 08)</span>
+            <span>อนุมัติคำขอ</span>
             {pendingCount > 0 && (
               <span className="ml-1 px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-amber-500 text-white animate-pulse">
                 {pendingCount}
@@ -97,7 +97,7 @@ export const ManagerLayout = () => {
             }`}
           >
             <PackageCheck className="w-4 h-4" />
-            <span>แจกจ่ายหน้างาน (UC-12)</span>
+            <span>แจกจ่ายหน้างาน</span>
           </button>
 
           {/* เมนู 4: จัดการสิทธิและโควตา */}
@@ -110,7 +110,7 @@ export const ManagerLayout = () => {
             }`}
           >
             <Sliders className="w-4 h-4" />
-            <span>จัดการโควตาสิทธิ (UC-09, 10)</span>
+            <span>จัดการโควตาสิทธิ</span>
           </button>
         </div>
       </div>

@@ -54,7 +54,7 @@ export const HousekeeperLayout = () => {
             ระบบสวัสดิการสำหรับพนักงานแม่บ้าน
           </h1>
           <p className="text-xs text-[#64748B] mt-0.5">
-            [Housekeeper Portal] ตรวจสอบสิทธิ ยื่นคำขอ และติดตามผลแบบเรียลไทม์
+            ตรวจสอบสิทธิคงเหลือ ยื่นคำขอ และติดตามผลการอนุมัติ
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export const HousekeeperLayout = () => {
             }`}
           >
             <Layers className="w-4 h-4" />
-            <span>สิทธิคงเหลือ (UC-02, 03)</span>
+            <span>สิทธิและโควตาคงเหลือ</span>
           </button>
 
           <button
@@ -81,7 +81,7 @@ export const HousekeeperLayout = () => {
             }`}
           >
             <FileCheck className="w-4 h-4" />
-            <span>ติดตามสถานะ & ประวัติ (UC-05, 06)</span>
+            <span>ติดตามสถานะและประวัติ</span>
             {pendingCount > 0 && (
               <span className="ml-1 px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-amber-500 text-white">
                 {pendingCount}

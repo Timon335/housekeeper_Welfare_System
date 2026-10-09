@@ -52,7 +52,7 @@ export const Navbar = () => {
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-[#64748B] hover:text-[#0F172A] hover:bg-slate-100 rounded-lg transition-all border border-[#E2E8F0]"
           >
             <RotateCcw className="w-3.5 h-3.5 text-[#2563EB]" />
-            <span className="hidden md:inline">รีเซ็ตข้อมูลทดสอบ</span>
+            <span className="hidden md:inline">คืนค่าข้อมูลระบบ</span>
           </button>
 
           {/* ป้ายแสดงผู้ใช้ปัจจุบัน */}

@@ -215,23 +215,15 @@ export const LoginScreen = () => {
           {/* [5] ข้อความคำแนะนำสั้น ๆ ด้านล่างฟอร์ม (Text Muted) */}
           <div className="mt-5 pt-4 border-t border-[#E2E8F0] text-center">
             <p className="text-[11px] text-[#64748B] flex items-center justify-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5 text-[#2563EB] flex-shrink-0" />
               <span>คลิกที่ช่องกรอกข้อมูลเพื่อเติมรหัสสำหรับทดสอบอัตโนมัติ (Demo Mode)</span>
-            </p>
-            <p className="text-[10px] text-[#94A3B8] mt-1">
-              {activeTab === 'housekeeper'
-                ? 'รหัสแม่บ้านทดสอบ: 1001 (พี่สมศรี), 1002 (พี่สมพร), 1003 (พี่บัวลอย)'
-                : 'รหัสหัวหน้างานทดสอบ: ADMIN01 (หัวหน้าพรทิพย์)'}
             </p>
           </div>
         </div>
       </div>
 
-      {/* หมายเหตุเชิงสถาปัตยกรรมระบบสำหรับวิชา Information Systems */}
-      <div className="mt-4 text-center">
-        <span className="text-[11px] text-[#64748B]">
-          Information Systems Project • Use Case [UC-01] User Authentication
-        </span>
+      {/* ลิขสิทธิ์และสังกัดอย่างเป็นทางการ */}
+      <div className="mt-5 text-center text-xs text-[#64748B]">
+        <p>© 2026 มหาวิทยาลัยศิลปากร • งานสวัสดิการและบริการหอพัก</p>
       </div>
     </div>
   );

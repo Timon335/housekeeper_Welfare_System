@@ -275,7 +275,7 @@ export const ManagerOverview = ({ onNavigateToApproval }) => {
           </div>
 
           <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[11px] text-[#64748B]">
-            <span>ระบบ In-Memory Database รองรับการอัปเดตแบบ Relational ทันที</span>
+            <span>ระบบบันทึกและประมวลผลข้อมูลสวัสดิการแบบเรียลไทม์</span>
           </div>
         </div>
       </div>

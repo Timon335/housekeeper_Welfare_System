@@ -91,7 +91,7 @@ export const RejectModal = ({ isOpen, onClose, request, onConfirmReject }) => {
           {/* ปุ่มข้อความสำเร็จรูปสำหรับ Demo */}
           <div>
             <span className="text-[11px] text-[#64748B] font-medium block mb-1">
-              คลิกเพื่อเลือกเหตุผลตัวอย่าง:
+              เหตุผลมาตรฐานที่พบบ่อย (คลิกเพื่อเลือก):
             </span>
             <div className="space-y-1">
               {quickReasons.map((reason, idx) => (

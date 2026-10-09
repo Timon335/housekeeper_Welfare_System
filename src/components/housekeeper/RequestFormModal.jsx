@@ -109,7 +109,7 @@ export const RequestFormModal = ({ isOpen, onClose, initialWelfareId = null }) =
             </div>
             <div>
               <h3 className="font-bold text-base leading-tight">ยื่นคำขอสวัสดิการใหม่</h3>
-              <p className="text-xs text-blue-100">[UC-04] แบบฟอร์มขอใช้สิทธิและเบิกพัสดุ</p>
+              <p className="text-xs text-blue-100">แบบฟอร์มขอใช้สิทธิและเบิกพัสดุ</p>
             </div>
           </div>
           <button
@@ -262,7 +262,7 @@ export const RequestFormModal = ({ isOpen, onClose, initialWelfareId = null }) =
             ) : (
               <div className="space-y-1.5">
                 <div className="text-[11px] text-[#64748B]">
-                  คลิกเพื่อเลือกไฟล์ตัวอย่างจำลองสำหรับการนำเสนอ:
+                  เลือกเอกสารหลักฐานแนบ:
                 </div>
                 <div className="flex flex-wrap gap-1.5">
                   {sampleAttachments.map((file, idx) => (

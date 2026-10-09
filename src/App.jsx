@@ -34,17 +34,14 @@ const MainContent = () => {
         )}
       </div>
 
-      {/* แถบคำอธิบายเชิงวิชาการสำหรับนำเสนออาจารย์ (IS Architecture Banner) */}
+      {/* ส่วนท้ายเว็บไซต์ (Official Footer) */}
       <footer className="bg-white border-t border-[#E2E8F0] py-3 px-4 text-center text-xs text-[#64748B]">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div className="flex items-center gap-1.5 font-medium text-slate-700">
-            <Database className="w-4 h-4 text-[#2563EB]" />
-            <span>Relational Schema Architecture (In-Memory Transaction Simulated)</span>
+          <div className="text-[11px] text-[#64748B]">
+            © 2026 ระบบจัดการสวัสดิการและสิทธิประโยชน์พนักงานหอพัก มหาวิทยาลัยศิลปากร
           </div>
-          <div className="flex items-center gap-2 text-[11px]">
-            <span>ระบบสวัสดิการแม่บ้านหอพัก • Design System: Welfare Care</span>
-            <span>•</span>
-            <span className="text-[#16A34A] font-semibold">พร้อม Deploy บน Vercel</span>
+          <div className="text-[11px] text-[#64748B]">
+            งานบริการและสวัสดิการบุคลากร • กองกิจการนักศึกษา
           </div>
         </div>
       </footer>
